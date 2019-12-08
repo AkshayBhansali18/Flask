@@ -1,0 +1,13 @@
+<html>
+    <head>
+        <title>Fill the Form</title>
+    </head>
+   <body>
+   <form action="{{url_for('indexJS')}}" method="post">
+       USN<input type="text" name="usn">
+       DOB<input type="text" name="dob">
+      Register <input name="register" type="submit">
+       <h3>{{msg}}</h3>
+   </form>
+   </body>
+</html>
